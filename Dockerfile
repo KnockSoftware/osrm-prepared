@@ -1,6 +1,6 @@
 FROM ezheidtmann/osrm
 
-ENV OSM_PBF_URL http://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf
+ENV OSM_PBF_URL http://download.geofabrik.de/north-america-latest.osm.pbf
 ENV OSRM_FILENAME thedata
 
 RUN echo 'disk=/data/stxxl,0,syscall' > /build/.stxxl
